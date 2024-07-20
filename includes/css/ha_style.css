@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --primary-color: #300668;
+    --secondary-color: #713D99 ;
+    --accent-color: #E6E6E6 ;
+    --border-color: #FFFFFF;
+    --text-white: #FFFFFF;
+    --text-black: #FFFFFF;
+    --border-radius: 10px;
+    --primary-font: "Poppins", sans-serif;
+    --secondary-font: "Rubik", sans-serif;
+  }
+
+  #ha_purple_button {
+    background: var(--secondary-color);
+    color: var(--text-white);
+    font-size: 16px;
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    text-shadow: none;
+    padding: 14px 20px;
+    border-radius: var(--border-radius);
+    box-shadow: none;
+    border: none;
+}
+
+#ha_grey_button {
+    background: var(--accent-color);
+    color: var(--secondary-color);
+    font-size: 16px;
+    font-family: var(--secondary-font);
+
+    font-weight: 500;
+    text-shadow: none;
+    padding: 14px 20px;
+    border-radius: var(--border-radius);
+    box-shadow: none;
+    border: none;
+}
